@@ -4,7 +4,7 @@ A modular, multi-agent AI research pipeline powered by **LangChain**, **Google G
 
 ---
 
-## 📑 Table of Contents
+📑 Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
@@ -33,9 +33,9 @@ This multi-agent architecture divides cognitive labor into specialized functiona
 3. **Writer Chain**: Synthesizes search snippets and deep scraped text into a formal report with introduction, key findings, conclusion, and citations.
 4. **Critic Chain**: Evaluates the synthesized report against editorial criteria, scoring it out of 10 and offering actionable critiques.
 
----
 
-## 🚀 Key Features
+
+🚀 Key Features
 
 - **Agentic Decision Making**: Uses LangChain's `create_agent` framework equipped with tool-calling capabilities.
 - **Deep Web Intelligence**: Integrates Tavily API for real-time search and custom BeautifulSoup4 extractors for full-text web scraping.
