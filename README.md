@@ -23,7 +23,7 @@ A modular, multi-agent AI research pipeline powered by **LangChain**, **Google G
 
 ---
 
-## 🌟 Overview
+🌟 Overview
 
 Conducting in-depth research requires finding relevant sources, reading deep into source articles, distilling key takeaways into a coherent synthesis, and critically verifying the quality of the findings.
 
@@ -42,12 +42,12 @@ This multi-agent architecture divides cognitive labor into specialized functiona
 - **Dual Pipeline Architectures**:
   - **Standard Text Pipeline** (`pipeline.py`): Quick string generation and console logging.
   - **Structured Schema Pipeline** (`claude/pipeline.py`): Uses `StructuredOutputParser` and `ResponseSchema` to ensure valid, machine-readable JSON dictionary outputs.
-- **Strict Quality Control**: Automated critic agent delivers transparent feedback, scoring, and verdict for iterative review.
-- **Robust Error Handling**: Non-crashing fallbacks for web requests, scraping timeouts, and SSL variances.
+- Strict Quality Control**: Automated critic agent delivers transparent feedback, scoring, and verdict for iterative review.
+- Robust Error Handling**: Non-crashing fallbacks for web requests, scraping timeouts, and SSL variances.
 
 ---
 
-## 🏗️ System Architecture
+🏗️ System Architecture
 
 ```
                   ┌───────────────────────┐
