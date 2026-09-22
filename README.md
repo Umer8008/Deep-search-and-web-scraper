@@ -260,3 +260,6 @@ Hello! How can I help you today?
 2. **Parallel Scraping**: Concurrent async scraping of multiple top URLs using `aiohttp`.
 3. **Export Formats**: Automatic export of the final report to PDF, Markdown, and Notion.
 4. **Interactive UI**: Web dashboard using Streamlit or FastAPI with real-time agent thought streaming.
+## Author
+   ***Umer Nawaz***
+   
